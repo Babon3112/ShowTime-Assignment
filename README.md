@@ -1,12 +1,89 @@
-# React + Vite
+# 📝 Showtime Questionnaire Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and clean questionnaire form built using **React**, **Tailwind CSS**, and **Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Live Demo 👉 https://show-time-assignment.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Objective
+
+Create a web form that collects user details with proper validation:
+- ✅ Full Name (text)
+- ✅ Age (number)
+- ✅ Date of Birth (date)
+- ✅ Location (select dropdown)
+- ✅ Mobile Number (12–13 digits including country code)
+
+---
+
+## ⚙️ Tech Stack
+
+- React 19
+- Tailwind CSS 4
+- Vite
+- ESLint (basic setup)
+
+---
+
+## 🛠 Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Babon3112/ShowTime-Assignment.git
+cd showtime-form
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+App will be running at:
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## ✅ Features
+
+* Field-level input validation
+* Clean, accessible UI using Tailwind
+* Fully responsive layout
+* Form auto-resets after successful submission
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── App.jsx          # Main component
+├── main.jsx         # App entry point
+├── index.css        # Tailwind CSS setup
+index.html           # Root HTML template
+vite.config.js       # Vite config
+```
+
+## 📌 Notes
+
+* `type="date"` is used for DOB for better UX (instead of a number).
+* Mobile numbers are cleaned of non-numeric characters and must be 12–13 digits.
+
+---
+
+## 👤 Author
+
+**Arnab Ghosh**
+
+* 🔗 [Portfolio](https://ag-geekycoder.vercel.app)
+* 🐙 [GitHub](https://github.com/babon3112)
+* 💼 [LinkedIn](https://linkedin.com/in/babon3112)
