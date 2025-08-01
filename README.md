@@ -33,7 +33,7 @@ Create a web form that collects user details with proper validation:
 1. **Clone the repository**
 ```bash
 git clone https://github.com/Babon3112/ShowTime-Assignment.git
-cd showtime-form
+cd ShowTime-Assignment
 ````
 
 2. **Install dependencies**
