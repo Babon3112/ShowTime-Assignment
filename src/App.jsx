@@ -50,7 +50,7 @@ export default function QuestionnaireForm() {
   };
 
   return (
-    <div class="flex h-screen items-center justify-center">
+    <div className="flex h-screen items-center justify-center">
       <div className="w-md mx-auto p-6 border rounded-xl shadow-lg">
         <h1 className="text-xl font-bold mb-4">Questionnaire Form</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
